@@ -28,7 +28,7 @@ a:hover{text-decoration:underline}
 .header-inner{display:flex; align-items:center; justify-content:space-between; padding:.6rem 0}
 .brand{display:flex; align-items:center; gap:.7rem}
 .brand img{
-  width: 160px;   /* was 48px */
+  width: 300px;   /* was 48px */
   height: auto;
 }
 .brand-text{font-weight:800; letter-spacing:.6px; color:var(--teal)}
