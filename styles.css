@@ -27,7 +27,10 @@ a:hover{text-decoration:underline}
 .site-header{background:var(--beige); position:sticky; top:0; z-index:50; border-bottom:1px solid #e2d9c9}
 .header-inner{display:flex; align-items:center; justify-content:space-between; padding:.6rem 0}
 .brand{display:flex; align-items:center; gap:.7rem}
-.brand img{width:48px;height:auto}
+.brand img{
+  width: 80px;   /* was 48px */
+  height: auto;
+}
 .brand-text{font-weight:800; letter-spacing:.6px; color:var(--teal)}
 .brand-text .muted{font-weight:600; color:var(--muted)}
 .nav-toggle{display:none; background:none;border:0; padding:.4rem; cursor:pointer}
